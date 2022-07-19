@@ -1,0 +1,153 @@
+html {
+    font-size: 10px;
+}
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Black Ops One', cursive;
+    -webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+}
+p {
+    font-size: 1.25em;
+    font-family: 'Space Mono', monospace;
+}
+th {
+    font-size: 1.75em;
+    background-color: rgb(250, 172, 184);
+    font-family: 'Bebas Neue', cursive;
+}
+li {
+    font-size: 1.25em;
+    font-family: 'Space Mono', monospace;
+}
+table {
+    background-color: black;
+}
+td {
+    background-color: white;
+}
+#Mugshot {
+    height: 20em;
+    width: 12em;
+}
+.index_table_data {
+    padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: right;
+        margin-left: 10em;
+        margin-right: 10em;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    th {
+        font-size: 2.25em;
+    }
+    li {
+        font-size: 1.75em;
+    }
+    #Mugshot {
+        height: 25em;
+        width: 15em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    body {
+        margin-left: 20em;
+        margin-right: 20em;
+        margin-top: 10em;
+        margin-bottom: 10em;
+    }
+    h1 {
+        font-size: 7em;
+    }
+    p {
+        font-size: 1.75em;
+    }
+    th {
+        font-size: 2.75em;
+    }
+    li {
+        font-size: 1.75em;
+    }
+    #Mugshot {
+        height: 30em;
+        width: 17em;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        margin-left: 25em;
+        margin-right: 25em;
+        margin-top: 15em;
+        margin-bottom: 15em;
+    }
+    h1 {
+        font-size: 10em;
+    }
+    p {
+        font-size: 2em;
+    }
+    th {
+        font-size: 3.25em;
+    }
+    li {
+        font-size: 2em;
+    }
+    #Mugshot {
+        height: 35em;
+        width: 24em;
+    }
+}
+
+@media only screen and (min-width: 1880px) {
+    body {
+        margin-left: 25em;
+        margin-right: 60em;
+        margin-top: 17em;
+        margin-bottom: 17em;
+    }
+    h1 {
+        font-size: 12em;
+    }
+    p {
+        font-size: 2.25em;
+    }
+    th {
+        font-size: 3.25em;
+    }
+    li {
+        font-size: 2.5em;
+    }
+    #Mugshot {
+        height: 50em;
+        width: 30em;
+    }
+    #Sightings {
+        padding-left: 3em;
+    }
+    .index_table_data {
+        padding: 2em;
+    }
+}
